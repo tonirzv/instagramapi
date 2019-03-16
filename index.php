@@ -1,7 +1,7 @@
 <?php
 include('Instagram.php');
-$instagram = new Instagram('507771294.2268c89.bde021deec974bbf9a2d5e95dfd57662', 20);
-$pictures = json_decode($instagram->getPictures());
+$instagram = new Instagram('507771294.2268c89.bde021deec974bbf9a2d5e95dfd57662');
+$pictures = json_decode($instagram->getPictures(20));
  ?>
 <!DOCTYPE html>
 <html lang="es" dir="ltr">

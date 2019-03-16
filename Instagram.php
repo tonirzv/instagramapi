@@ -3,12 +3,11 @@ class Instagram {
   private $accessToken;
   private $picturesNumber;
 
-  function __construct(string $accessToken, int $picturesNumber) {
+  function __construct(string $accessToken) {
     $this->accessToken = $accessToken;
-    $this->picturesNumber = $picturesNumber;
   }
 
-  public function getPictures() : string {
+  public function getPictures(int $picturesNumber) : string {
     try {
       $pictures = [];
       $json = file_get_contents('https://api.instagram.com/v1/users/self/media/recent/?access_token='. $this->accessToken . '&count=' . $this->picturesNumber);
