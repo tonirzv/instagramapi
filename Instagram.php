@@ -1,7 +1,6 @@
 <?php
 class Instagram {
   private $accessToken;
-  private $picturesNumber;
 
   function __construct(string $accessToken) {
     $this->accessToken = $accessToken;
