@@ -1,5 +1,5 @@
 ## Instagramapi
-Instagramapi allows you to get pictures, descriptions, user data etc... of an instagram account.
+Instagramapi allows you to get pictures of an instagram account.
 
 ## Deployment
 
@@ -28,3 +28,6 @@ $pictures = json_decode($instagram->getPictures(20));
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+## Future
+In the future, Instagramapi will can get and save your photos in your web server.
