@@ -15,7 +15,7 @@ Simply grab the access_token off the URL fragment and you’re good to go. If th
 
 ## Usage
 
-Here is an example, you can get your photos.
+Here is an example (you can check it on index.php), you can get your photos.
 
 ```php
 include('Instagram.php');
